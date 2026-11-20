@@ -70,7 +70,7 @@ while shop_choise != "6":
                 print(f"- {item}")
             time.sleep(1)
         case "6":
-            print("Thank you for visiting the shop, {player_name}")
+            print(f"Thank you for visiting the shop, {player_name}")
             print(f"you have {player_gold} left")
             time.sleep(1)
         case _:
