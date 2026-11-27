@@ -102,8 +102,12 @@ def sell_item(gold, inventory):
             print('h,m')
 
 def work(gold):
+    for i in range(101):
+        print(f"you are {i}% done")
+        time.sleep(0.2)
     gold += 20
     print(f"you have {gold} gold")
+    time.sleep(1)
     return gold
     
 
